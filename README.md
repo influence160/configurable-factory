@@ -14,6 +14,7 @@ create the XML config file
       </factories>
 
 <p/>
+and ask the ConfigurableFactory to create an instance
 
       ConfigurableFactory factory = new ConfigurableFactory("the_file_path.xml");
       //this will return a new instance of AImpl2
