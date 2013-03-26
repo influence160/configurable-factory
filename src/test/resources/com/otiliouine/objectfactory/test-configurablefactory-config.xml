@@ -1,0 +1,6 @@
+<factories>
+	<factory interface="java.util.Collection"
+		implementation="java.util.ArrayList" />
+	<factory interface="java.util.Map"
+		implementation="java.util.HashSet" />
+</factories>
