@@ -71,6 +71,14 @@ and the client code can be like this
         <factory> interface="com.myframework.IA" implementation="com.theclient.AClientImpl" />
       </factories>
 <p/>
+
+      // a client implementation of IA
+      public class AClientImpl implements IA {
+      ...
+      }
+      
+<p/>
+
       // a client class
       ...
       S service = new S();
