@@ -25,7 +25,8 @@ and ask the ConfigurableFactory to create an instance
 This factory can be more interesting then a simple factory class 
 suppose you create a code that will be used by another developper, 
 your code provides a method that makes a sertaint treatment in which 
-she created the instance of a class A implements IA.
+she created the instance of a class implementing your interface IA.
+<p/>
 Suppose you want to leave the choice of the created instances type to the user, 
 the best way is to ask her to configure this option in an xml file whose name is predefined
 
