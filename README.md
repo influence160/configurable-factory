@@ -38,7 +38,7 @@ for example this is a framework called MyFramework, it provide this service call
         public void serviceMethod(Object ... args) {
             //some code
             ...
-            ConfigurableFactory factory = MyFrameworkFactory.getConfigurableFactory();
+            ConfigurableFactory factory = MyFrameworkFactoryProvider.getConfigurableFactory();
             IA a = factory.createInstance(IA.class);
             as.add(a);
             //some code
@@ -51,7 +51,7 @@ for example this is a framework called MyFramework, it provide this service call
       }
 <p/>
 
-      public class MyFrameworkFactory {
+      public class MyFrameworkFactoryProvider {
           //this file must be provided by the user of the framework 'MyFramework' in the classpath
           public static final String FACTORY_CONFIG_FILE = "META-INF/myframework-factories-config.xml"
           
